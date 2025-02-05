@@ -1,4 +1,4 @@
-# Exercícios - Curso de Engenharia de Software
+# Exercícios Algoritmos II - Curso de Engenharia de Software
 
 Este repositório contém os exercícios realizados durante o curso de **Engenharia de Software** na disciplina **Algoritmos II**. Ao longo da matéria, foram abordados diversos tópicos que ajudaram a fortalecer os conceitos de algoritmos e suas aplicações.
 
