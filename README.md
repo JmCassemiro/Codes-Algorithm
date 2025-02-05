@@ -13,24 +13,24 @@ Esses exercícios não apenas ajudam a desenvolver a habilidade de programar de 
 Os principais tópicos abordados ao longo das três disciplinas de algoritmos são:
 
 ### Algoritmos I:
-- **Entrada e Saída**: Leitura e escrita de dados a partir do usuário ou de arquivos, incluindo o uso de bibliotecas de entrada e saída padrão.
-- **Controle de Fluxo**: Uso de estruturas condicionais (`if`, `else`, `switch`) para determinar o caminho a ser seguido em um programa.
-- **Variáveis e Tipos de Dados**: Definição e manipulação de variáveis, tipos primitivos (inteiros, reais, booleanos) e compostos (arrays, structs).
-- **Técnicas de Programação**: Recursão, iteração.
-- **Funções e Procedimentos**: Organização do código em funções que realizam tarefas específicas, aumentando a modularidade e a reutilização.
+- **Entrada e Saída**: Leitura e escrita de dados a partir do usuário ou de arquivos, incluindo o uso de bibliotecas de entrada e saída padrão. 📥📤
+- **Controle de Fluxo**: Uso de estruturas condicionais (`if`, `else`, `switch`) para determinar o caminho a ser seguido em um programa. 🔄
+- **Variáveis e Tipos de Dados**: Definição e manipulação de variáveis, tipos primitivos (inteiros, reais, booleanos) e compostos (arrays, structs). 🔢📊
+- **Técnicas de Programação**: Recursão, iteração. 🔁
+- **Funções e Procedimentos**: Organização do código em funções que realizam tarefas específicas, aumentando a modularidade e a reutilização. 🧑‍💻
 
 ### Algoritmos II:
-- **Estruturas de Dados Básicas**: Listas, Pilhas, Filas, Árvores.
-- **Algoritmos Hashing**: Estruturas de dados baseadas em tabelas hash.
-- **Algoritmos Recursivos Avançados**: Aplicações mais complexas de recursão.
-- **Algoritmos de Busca e Ordenação**: Busca linear, binária, bubblesort, quicksort, mergesort.
-- **Grafos e suas Aplicações**: Algoritmos de grafos como DFS, BFS, Prim, Lista de adjacências.
-- **Algoritmos de Ponteiros**: Aplicações e manipulações de dados utilizando ponteiros.
+- **Estruturas de Dados Básicas**: Listas, Pilhas, Filas, Árvores. 🗂️
+- **Algoritmos Hashing**: Estruturas de dados baseadas em tabelas hash. 🔑
+- **Algoritmos Recursivos Avançados**: Aplicações mais complexas de recursão. 🔄
+- **Algoritmos de Busca e Ordenação**: Busca linear, binária, bubblesort, quicksort, mergesort. 🔍🔢
+- **Grafos e suas Aplicações**: Algoritmos de grafos como DFS, BFS, Prim, Lista de adjacências. 🌐
+- **Algoritmos de Ponteiros**: Aplicações e manipulações de dados utilizando ponteiros. 🔗
 
 ### Algoritmos III:
-- **Algoritmos de Geometria Computacional**: Aplicações para resoluções de problemas geométricos.
-- **Algoritmos de Busca Avançada**: Algoritmos de busca em grafos e árvores.
-- **Programação Dinâmica**: Algoritmos para problemas de otimização, método guloso, força bruta, LCS.
+- **Algoritmos de Geometria Computacional**: Aplicações para resoluções de problemas geométricos. 📐
+- **Algoritmos de Busca Avançada**: Algoritmos de busca em grafos e árvores. 🔎
+- **Programação Dinâmica**: Algoritmos para problemas de otimização, método guloso, força bruta, LCS. 📈
 
 ## Objetivo
 
@@ -42,14 +42,14 @@ Este repositório serve tanto como um registro do aprendizado, quanto como uma r
 
 Para usar este repositório, basta clonar ou baixar o repositório, navegar até a pasta de um exercício e compilar o código em **C++** com o comando apropriado. Em seguida, execute os programas para testar as soluções.
 
-Caso você deseje melhorar ou adicionar novos exercícios, fique à vontade para fazer um **fork** deste repositório e criar uma **pull request** com suas contribuições.
+Caso você deseje melhorar ou adicionar novos exercícios, fique à vontade para fazer um **fork** deste repositório e criar uma **pull request** com suas contribuições. 🔄
 
 ## Conclusão
 
-O estudo de algoritmos é essencial para qualquer estudante de Engenharia de Software, pois fornece as bases necessárias para o desenvolvimento de soluções computacionais eficientes e escaláveis. Através deste repositório, buscamos documentar e compartilhar o conhecimento adquirido ao longo do curso de **Engenharia de Software**, contribuindo para a formação de profissionais capacitados para enfrentar desafios cada vez mais complexos no mundo da computação.
+O estudo de algoritmos é essencial para qualquer estudante de Engenharia de Software, pois fornece as bases necessárias para o desenvolvimento de soluções computacionais eficientes e escaláveis. Através deste repositório, buscamos documentar e compartilhar o conhecimento adquirido ao longo do curso de **Engenharia de Software**, contribuindo para a formação de profissionais capacitados para enfrentar desafios cada vez mais complexos no mundo da computação. 💻📚
 
 ---
 
 **Desenvolvido por [João Marcos Cassemiro]**  
 **Curso:** Engenharia de Software  
-**Instituição:** [Inatel]
+**Instituição:** [Inatel] 🎓
