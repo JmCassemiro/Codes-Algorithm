@@ -9,9 +9,9 @@ struct no
 	int peso; // variavel peso para struct no.
 };
 
-void cria_aresta(list<no> adj[], int u, int v, int peso, int orientado, int nVertices)
+void cria_aresta(list<no> adj[], int u, int v, int peso, int orientado)
 {
-	no aux; // declara��o do struct no como variavel aux.
+	no aux; // declaração do struct no como variavel aux.
 
 	aux.v = v;
 	aux.peso = peso;
@@ -23,25 +23,22 @@ void cria_aresta(list<no> adj[], int u, int v, int peso, int orientado, int nVer
 	}
 }
 
-int arestasPesadas(list<no> adj[], int nVertices, int s, int limiar)
+int arestasPesadas(list<no> adj[], int s, int limiar, int nVertices)
 {
 	list<no>::iterator m;
 	list<int> Q;
-	no aux;	   // declara��o da struct como variavel aux;
-	int u;	   // variavel origem
-	int p[10]; // variavel pais
+	no aux; // declaração da struct como variavel aux;
+	int u;	// variavel origem
 	char state[10];
 	int v;		  // variavel destino;
-	int cont = 0; // variavel contador para contar quantas variaveis peso s�o maiores que limiar.
+	int cont = 0; // variavel contador para contar quantas variaveis peso são maiores que limiar.
 
 	for (u = 0; u < nVertices; u++)
 	{
 		state[u] = 'u'; // nao descoberto
-		p[u] = -1;		// sem pa�s
 	}
 
 	state[s] = 'd'; // descoberto
-	p[s] = -1;		// sem pa�s
 	Q.push_back(s);
 
 	while (!Q.empty())
@@ -57,8 +54,6 @@ int arestasPesadas(list<no> adj[], int nVertices, int s, int limiar)
 			if (state[v] == 'u')
 			{
 				state[v] = 'd';
-				p[v] = u;
-
 				Q.push_back(v);
 			}
 
@@ -78,28 +73,29 @@ int main()
 {
 	list<no>::iterator q;
 	list<no> adj[10];
-	int u; // variavel origem
-	no aux;
+	int u = 0; // variavel origem
 	int nVertices;
-	int v; // variavel destino;
-	int peso;
+	int v = 0; // variavel destino;
+	int peso = 0;
 	int s;			   // variavel Start;
-	int orientado = 1; // declara��o de grafo como orientado;
+	int orientado = 1; // declaração de grafo como orientado;
 	int limiar;		   // variavel utilizada para achar peso maior do que a mesma.
-	int c;			   // int que tera o valor do retorno da fun��o aresta pesada.
+	int c;			   // int que tera o valor do retorno da função aresta pesada.
 
 	cin >> nVertices >> s; // entrada com nVertices e variavel start.
 
-	// Lnedo arestas
-	while (u == -1 && v == -1 && peso == -1)
+	// Lendo arestas
+	while (true)
 	{
-		cria_aresta(adj, u, v, peso, orientado, nVertices); // fun��o cria aresta.
 		cin >> u >> v >> peso;
+		if (u == -1 && v == -1 && peso == -1) // Condição de parada
+			break;
+		cria_aresta(adj, u, v, peso, orientado); // função cria aresta.
 	}
 
 	cin >> limiar;
 
-	c = arestasPesadas(adj, nVertices, s, limiar);
+	c = arestasPesadas(adj, s, limiar, nVertices);
 
 	cout << c << " arestas com peso acima de " << limiar << endl;
 
